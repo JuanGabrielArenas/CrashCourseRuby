@@ -1,0 +1,17 @@
+• What cases do you think arrays are more suitable than hashes for?
+    When i know the length of the item thet i need to store and i know yoo that this don't will increase in the future
+    oder posibility can be the use to store an array for iterate with a for Cicle
+
+• What cases do you think hashes are more suitable than arrays for?
+    this structere is most useful when i have a lot of data and need to access quicly to each one of this data, with
+    out iterate
+
+•   Can we have hashes as arrays’ elements?
+        yes that is posible, because this elements will be storage in this index and i can access to the items or
+        index of this other structure
+    Can we have arrays as hashes’ elements?
+        yes, when i access to this value of this key, we can iterate or call a index of this array and manipulate
+    Can an array or a hash be the key of any hash element?
+        no, that is no posible, because the key maybe unique and and array or hash could have more than one element,
+        and don't make posible to know which of the elements is the key. or if i make this, i lose the another memory
+        spaces that use the elements with out value inside

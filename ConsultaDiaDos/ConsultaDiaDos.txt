@@ -5,7 +5,7 @@ What is the difference between chomp and chop?
 Chomp. This removes the newline characters from the end of a string. So it will remove "\n" or "\r\n"
 if those characters are at the end. A substring is removed if it is present.
 
-Chop. It removes the final character from the input. This can lead to corrupt data.
+Chop. It removes the final character from the input. This can give corrupt data.
     The last character in a string is always removed with chop—even if it is not whitespace.
     chomp() is safer than chop, as it will not remove an ending char unless it is a newline character.
 ________________________________________________________________________________________________________________________
