@@ -1,0 +1,31 @@
+Consulta de la pagina oficial de https://www.ruby-lang.org/en/documentation/
+
+What is the difference between chomp and chop?
+
+Chomp. This removes the newline characters from the end of a string. So it will remove "\n" or "\r\n"
+if those characters are at the end. A substring is removed if it is present.
+
+Chop. It removes the final character from the input. This can lead to corrupt data.
+    The last character in a string is always removed with chop—even if it is not whitespace.
+    chomp() is safer than chop, as it will not remove an ending char unless it is a newline character.
+________________________________________________________________________________________________________________________
+Which are the different variables’ scopes and what are them used for?
+
+
+Ruby has 5 variable scopes:
+
+1. Local Variables: these are the normal variables, example x = 25, y = gaurish where x and y are local variables.
+2. Instance Variables: these are denoted with @ symbol infront of the actual variable name. mainly used with classes,
+    so that each instance/object of the class has a different/separate value. example. @employee.name = 'Alex'
+3. Class Variables: denoted with @@ symbols in front of variable name. class variable, I think have same value accos
+    all instances/object.
+4. Global variables: they start with $ symbol and are accessible everywhere. example $LOAD_PATH
+5. Constants: Must start with Capital letter but by convention written in ALL_CAPS. although, it is a constant but
+    its value its not constant and can be changed(ruby will throw a warning, though). so in the sense, this also acts
+    like a variable.
+
+https://stackoverflow.com/questions/11495098/difference-between-various-variables-scopes-in-ruby
+________________________________________________________________________________________________________________________
+A string is an object from the String class. What are the methods reverse,
+capitalize, and length for?
+
